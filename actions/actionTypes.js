@@ -1,0 +1,3 @@
+export const GET_QUESTION_SET = 'GET_QUESTION_SET'
+export const ADD_QUESTION_SET = 'ADD_QUESTION_SET'
+export const ADD_QUESTION = 'ADD_QUESTION'

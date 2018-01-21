@@ -1,1 +1,8 @@
-
+{
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 25156,
+  "expoServerNgrokUrl": "https://2b-k7k.rkrishnan76.kmobileflashapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.2b-k7k.rkrishnan76.kmobileflashapp.exp.direct",
+  "ngrokPid": 22800
+}

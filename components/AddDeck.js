@@ -13,7 +13,7 @@ import { texts } from '../styles/texts'
 import { buttons } from '../styles/buttons'
 import { connect } from 'react-redux'
 import { saveDeckTitle } from '../utils/api'
-import { addQuestionSet } from '../actions'
+import { addDeck } from '../actions'
 import { NavigationActions } from 'react-navigation'
 
 class AddDeck extends Component {
@@ -38,7 +38,7 @@ class AddDeck extends Component {
     if (title !== '') {
       saveDeckTitle(title)
         .then(() => {
-          this.props.addQuestionSet(title)
+          this.props.addDeck(title)
           this.setState({
             title: ''
           })
@@ -74,4 +74,4 @@ class AddDeck extends Component {
 
 const mapStateToProps = (decks) => ({ decks })
 
-export default connect(mapStateToProps, { addQuestionSet })(AddDeck)
+export default connect(mapStateToProps, { addDeck })(AddDeck)

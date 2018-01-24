@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
+After cloning this project, get into the directory where the project is locally copied.  For eg., cd myReactQuizApp.
+
+Once you are in the working directory, please run the following commands:
+
+1. npm install
+2. npm start
+
+Once you have the application running, start the expo ide desktop app and share the same for testing in the mobile by scanning the QR code.
+
+You may also test using simulators.  Please go through the section below for detailed steps on testing the same.
+
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 ## Table of Contents
